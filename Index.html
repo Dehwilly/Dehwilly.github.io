@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <tittle> Dew's Website </tittle>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    
+    <!-- Nova Round -->
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+    
+    <!-- Catamaran -->
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(255, 196, 87);
+        }
+
+        h1 {
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+            color:black;
+        }
+        #NavBar {
+            position: relative;
+            overflow: hidden;
+            background-color: rgb(255, 171, 16);
+            width: 1131px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top:30px;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+        #NavBar a {
+            float: left; /* Make sure that the links stay side-by-side */
+            display: block; /* Change the display to block, for responsive reasons (see below) */
+            color: white; /* White text color */
+            text-align: center; /* Center the text */
+            padding: 0.2em 0.90em; /* Add some padding */
+            text-decoration: none; /* Remove underline */
+            background-color: rgb(255, 171, 16);
+            font-family: serif;
+            font-size:12px
+        }        
+        #NavBar a:hover {
+            color: white;
+            background-color: rgb(255, 69, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1> Escola Estadual Professor Figueiredo Brandão </h1>
+    <!-- SideButtons -->
+    <div id="NavBar">
+        <a href="" target="_self" id="AEscola"> 
+            <h2> A Escola </h2> 
+        </a> 
+        <a href="" target="_self">
+            <h2> Aulas Online </h2> 
+        </a>
+        <a href="" target="_self"> 
+            <h2> PET Impresso </h2>
+        </a>
+        <a href="" target="_self"> 
+            <h2> KIT Merenda </h2>
+        </a>
+        <a href="" target="_self" id="MeusProfessores"> 
+            <h2> Meus Professores </h2>
+        </a>
+        <a href="" target="_self"> 
+            <h2> Transferências </h2>
+        </a>
+        <a href="" target="_self"> 
+            <h2> Especialistas </h2>
+        </a>
+        <a href="" target="_self"> 
+            <h2> PETs em PDF </h2> 
+        </a>
+        <a href="" target="_self" id="Atendimento"> 
+            <h2> Atendimento </h2> 
+        </a>
+    </div>
+    <div id="row">
+        <div class="side"></div>
+        <div class="main"></div>
+    </div>
+</body>
